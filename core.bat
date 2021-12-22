@@ -3,13 +3,12 @@ goto %acr%
 :help
 
 echo "core" show your core version
+echo "*update" update your core
 echo "ipc" see your ip
 echo "exit" exit term
 echo "connection-status" see your connection status
-echo "add-reply" add some custom auto reply ["type run to accsess your reply"]
 echo "remove" delete reply
 echo "list" see all file
-echo "term-check" see all problem
 echo "cs" clear
 
 
@@ -21,7 +20,7 @@ arp -a
 goto ext
 
 :core
-echo Core version 1.0
+echo Core version 1
 echo Acroterm Default data
 goto ext
 
